@@ -1,15 +1,37 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "sandbox#h1",
+      "info-card#bestdeals"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "VTEX MIKE Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "info-card#bestdeals": {
+    "props": {
+      "blockClass": "sales",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "http://cybercitycomix.com/wp-content/uploads/2015/08/Sale-sign.jpg",
+      "headline": "BEST DEALS",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "sandbox#h1": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "initialContent": "<h1 style=\"text-align:center;\">Hello World</h1>",
+      "allowCookies": false
     }
   }
 }
